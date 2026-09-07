@@ -1,0 +1,13 @@
+{
+ "takim": { "ad": "HazirlikTakimi", "uyeler": ["Adınız Soyadınız"], "iletisim": "mail@ornek.com" },
+ "proje": { "ad": "Mini Data Chat", "ozet": "Sentetik veriyi okuyup AI ile özetleyen CLI.", "deploy_url": null },
+ "calistirma": { "komut": "python src/main.py", "on_kosullar": ["python 3.11+"], "veri_yolu": "./src/data.csv" },
+ "ai_kullanimi": {
+  "platform": "SAKA",
+  "modeller": [{ "ad": "GLM 5.2", "surum": "glm-52-fp8", "kullanim": "analiz ve aciklama" }],
+  "mcp_sunuculari": [], "apiler": [],
+  "insan_ai_is_bolumu": "Veri okuma mimarisi insan, içgörü üretimi AI."
+ },
+ "cozum": { "yaklasim": "CLI üzerinden hızlı sorgu", "x_factor": "Saniyeler içinde veri özeti", "olctugumuz_metrikler": {} },
+ "sunum": { "demo_akisi": ["Uygulamayı başlat", "Sonucu göster"] }
+}
