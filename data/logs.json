@@ -1,0 +1,37 @@
+[
+    {
+        "timestamp": "2026-09-16T15:01:00",
+        "service": "cart-service",
+        "node": "node-1",
+        "level": "INFO",
+        "message": "User added item to cart."
+    },
+    {
+        "timestamp": "2026-09-16T15:02:15",
+        "service": "cart-service",
+        "node": "node-2",
+        "level": "WARNING",
+        "message": "Memory usage at 85%."
+    },
+    {
+        "timestamp": "2026-09-16T15:03:00",
+        "service": "cart-service",
+        "node": "node-2",
+        "level": "ERROR",
+        "message": "DB_CONNECTION_TIMEOUT: Cannot connect to Redis cache."
+    },
+    {
+        "timestamp": "2026-09-16T15:03:05",
+        "service": "cart-service",
+        "node": "node-2",
+        "level": "FATAL",
+        "message": "OOMKilled. Node crashed."
+    },
+    {
+        "timestamp": "2026-09-16T15:03:10",
+        "service": "api-gateway",
+        "node": "gateway-1",
+        "level": "ERROR",
+        "message": "HTTP 500 returned to 450 users."
+    }
+]
