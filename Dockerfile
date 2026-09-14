@@ -1,0 +1,2 @@
+FROM artifactory.turkcell.com.tr/local-docker-dist-prod/com/turkcell/ai-platform/common-inference/common-inference/releasable/2026-07-28/vllm/vllm-openai-v0.26.0:main-1
+RUN pip install --no-cache-dir "transformers>=5.0.0" "numpy<2.5" --upgrade
