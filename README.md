@@ -13,15 +13,14 @@ Kurumsal altyapılarda oluşan karmaşık, çoklu satırlı log akışlarını m
 
 ## 🛠️ Kurulum Adımları
 ```bash
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/suleymandiker/ao-hackathon-2026-teletabiler
+cd ao-hackathon-2026-teletabiler
 pip install -r requirements.txt
 ```
 
 ## 🚀 Çalıştırma Komutu
 ```bash
-python3 scripts/agentic_vertex_async.py --input src/1_data_loader/examples/heterogeneous_karmasik_test.log
-python3 scripts/agentic_drain3_autotuner.py --input src/1_data_loader/examples/normalized_heterogeneous_karmasik_test.log
+streamlit run src/app.py
 ```
 
 ## 🤖 Kullanılan AI Araçları ve Model Sürümleri
