@@ -1,0 +1,9 @@
+# Web Arayüzü (Frontend)
+streamlit>=1.32.0
+
+# API İstekleri ve Haberleşme
+requests>=2.31.0
+urllib3>=2.2.0
+
+# Çevre Değişkenleri (.env) Yönetimi
+python-dotenv>=1.0.1
