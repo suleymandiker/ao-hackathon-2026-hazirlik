@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Runtime state / learned cache
+src/segmentation_layer/segmentation_cache.json
+src/segmentation_layer/__pycache__/
+
+*.sqlite3

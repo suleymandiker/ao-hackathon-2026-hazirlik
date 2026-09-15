@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "default_language": "en",
+  "roles": {
+    "common_system": {"file": "common_system.md", "version": "1.0"},
+    "segmentation_discovery": {"file": "segmentation_discovery.md", "version": "2.1"},
+    "segmentation_refinement": {"file": "segmentation_refinement.md", "version": "2.1"},
+    "segmentation_critic": {"file": "segmentation_critic.md", "version": "1.1"},
+    "incident_correlation_judge": {"file": "incident_correlation_judge.md", "version": "2.1"},
+    "causal_graph_judge": {"file": "causal_graph_judge.md", "version": "2.1"},
+    "causal_graph_expert": {"file": "causal_graph_expert.md", "version": "1.1"},
+    "ajan1_triyaj": {"file": "ajan1_triyaj.md", "version": "2.1"},
+    "ajan2_rca": {"file": "ajan2_rca.md", "version": "3.1"}
+  }
+}

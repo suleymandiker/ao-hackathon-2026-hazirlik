@@ -1,0 +1,28 @@
+{
+    "protected_keywords": [
+        "login",
+        "logout",
+        "failed",
+        "refused",
+        "connect",
+        "timeout",
+        "success",
+        "denied",
+        "authorized",
+        "started",
+        "stopped",
+        "password",
+        "invalid",
+        "user",
+        "root"
+    ],
+    "pre_masking_attributes": [
+        "user_id",
+        "dest_ip",
+        "source_ip",
+        "token",
+        "session_id",
+        "port",
+        "process_id"
+    ]
+}
